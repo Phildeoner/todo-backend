@@ -13,7 +13,7 @@ const PORT = 5000;
 
 // Connect to MongoDB
 mongoose.connect(
-  "mongodb+srv://phildeoner:Chemistry0419@cluster0.nklsaik.mongodb.net/?authSource=Cluster0&authMechanism=SCRAM-SHA-1",
+  "mongodb+srv://phildeoner:Chemistry0419@cluster0.nklsaik.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
