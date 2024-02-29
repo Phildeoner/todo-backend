@@ -1,2 +1,2 @@
-# todo-backend
-Backend for todo app
+# to-do-app
+A simple todo App using MERN Stack
